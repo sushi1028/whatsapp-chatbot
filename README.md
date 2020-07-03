@@ -22,9 +22,9 @@
     Create a Project Folder.
 
     Run following command to create a new virtual environment inside your project folder:
-    ```
-    python3 -m venv chatboatenv
-    ```
+    
+    ```python3 -m venv chatboatenv```
+    
     After running above command, a folder named myvenv will get created in your project folder.
 
     Activate the virtual environment by running following command:
@@ -39,29 +39,28 @@
 6. Install required Python Packages:
 
     flask
-```
-      pip install flask
-```
+```pip install flask```
+    
     twilio
-```
-      pip install twilio
-```
+
+```pip install twilio```
+    
     tensorflow
-```
-      pip innstall tensorflow
-```    
+
+```pip innstall tensorflow```
+
     nltk
-```    
-      pip install nltk
-```
+```pip install nltk```
+
 7. To Train a model with your custom data, Add your dialogues to intents.json & then run
-```
-    python3 train_model.py
-```
+
+```python3 train_model.py```
+
 8. Run the flask app
-```
-    python app.py
-```
+
+```python app.py```
+
+
 9. For local testing: Generate Public URL for Webhook using ngrok.io
 
     >*ngrok is a free tool that allows us to tunnel from a public URL to our application running locally.*
@@ -69,9 +68,9 @@
     i. Download [ngrok](https://ngrok.com/download).
 
     ii. Run ngrok from command line (from the location where executable is stored)
-```
-      ./ngrok http 5000
-```
+
+```./ngrok http 5000```
+
     iii. Copy the HTTPS Forwarding URL
 
     iv. Paste it as the webhook URL for incoming messages in your twilio sandbox configuration. 
