@@ -1,22 +1,22 @@
 # Flask - Twilio Based chatbot
 1. Create account on [Twilio](https://www.twilio.com/try-twilio)
----
+
 2. Create new project
     Select Products
     Choose Programmable SMS
     Click Continue
     Give your project a name
     Click Continue (and skip remaining steps if you want)
----
+
 3. Open Programmable SMS Dashboard on project console and select WhatsApp Beta.
----
+
 4. Learn features of Twilio Sandbox for WhatsApp.
 
     Link your WhatsApp phone number to your Sandbox.
     Shortcut link: https://api.whatsapp.com/send?phone=+14155238886&text=join%20horn-metal
     Send a One-Way WhatsApp Message. (Notice that outbound messages have a predefined format)
     Test Two-Way Messaging
----
+
 5. Setup a Python Virtual Environment
 
     A virtual environment is a tool that helps to keep dependencies required by different projects separate by creating isolated python virtual environments for them.
@@ -37,7 +37,7 @@
      For windows users:
 
           chatboatenv\Scripts\activate
----
+
 6. Install required Python Packages:
 
    flask
@@ -52,16 +52,18 @@
 ```pip innstall tensorflow```
 
    nltk
+   
 ```pip install nltk```
----
+
+
 7. To Train a model with your custom data, Add your dialogues to intents.json & then run
 
 ```python3 train_model.py```
----
+
 8. Run the flask app
 
 ```python app.py```
----
+
 
 9. For local testing: Generate Public URL for Webhook using ngrok.io
 
