@@ -76,7 +76,7 @@
 
 **9.** For local testing: Generate Public URL for Webhook using ngrok.io
 
-    >*ngrok is a free tool that allows us to tunnel from a public URL to our application running locally.*
+   >*ngrok is a free tool that allows us to tunnel from a public URL to our application running locally.*
 
    i. Download [ngrok](https://ngrok.com/download).
 
