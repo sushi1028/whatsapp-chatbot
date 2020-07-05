@@ -3,21 +3,21 @@
 
 
 **2.** Create new project
-    Select Products
-    Choose Programmable SMS
-    Click Continue
-    Give your project a name
-    Click Continue (and skip remaining steps if you want)
+    >*Select Products
+    >*Choose Programmable SMS
+    >*Click Continue
+    >*Give your project a name
+    >*Click Continue (and skip remaining steps if you want)
 
 **3.** Open Programmable SMS Dashboard on project console and select WhatsApp Beta.
 
 
 **4.** Learn features of Twilio Sandbox for WhatsApp.
 
-   Link your WhatsApp phone number to your Sandbox.
-   Shortcut link: https://api.whatsapp.com/send?phone=+14155238886&text=join%20horn-metal
-   Send a One-Way WhatsApp Message. (Notice that outbound messages have a predefined format)
-   Test Two-Way Messaging
+   >*Link your WhatsApp phone number to your Sandbox.
+   >*Shortcut link: https://api.whatsapp.com/send?phone=+14155238886&text=join%20horn-metal
+   >*Send a One-Way WhatsApp Message. (Notice that outbound messages have a predefined format)
+   >*Test Two-Way Messaging
 
 
 **5.** Setup a Python Virtual Environment
@@ -28,7 +28,7 @@
 
    Run following command to create a new virtual environment inside your project folder:
     
-    ```python3 -m venv chatboatenv```
+     python3 -m venv chatboatenv
     
    After running above command, a folder named myvenv will get created in your project folder.
 
