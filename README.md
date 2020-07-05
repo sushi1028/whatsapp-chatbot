@@ -68,7 +68,7 @@
 
 
 
-**7.** To Train a model with your custom data, Add your dialogues to intents.json & then run
+**7.** To Train a model with your custom data, **Add your dialogues to intents.json** & then run
 
 ```python3 train_model.py```
 
@@ -92,7 +92,7 @@
 
    iii. Copy the HTTPS Forwarding URL
 
-   iv. Paste it as the webhook URL for incoming messages in your twilio sandbox configuration. 
+   iv. Paste it as the **webhook URL** for incoming messages in your twilio sandbox configuration. 
 
 
 **Congratulation**, **You can test your bot now.**
