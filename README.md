@@ -3,11 +3,11 @@
 
 
 **2.** Create new project
-    >*Select Products
-    >*Choose Programmable SMS
-    >*Click Continue
-    >*Give your project a name
-    >*Click Continue (and skip remaining steps if you want)
+    >Select Products
+    >Choose Programmable SMS
+    >Click Continue
+    >Give your project a name
+    >Click Continue (and skip remaining steps if you want)
 
 **3.** Open Programmable SMS Dashboard on project console and select WhatsApp Beta.
 
