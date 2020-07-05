@@ -45,19 +45,19 @@
 
 **6.** Install required Python Packages:
 
-   flask
+   >flask
    
 ```pip install flask```
     
-   twilio
+   >twilio
 
 ```pip install twilio```
     
-   tensorflow
+   >tensorflow
 
 ```pip innstall tensorflow```
 
-   nltk
+   >nltk
    
 ```pip install nltk```
 
