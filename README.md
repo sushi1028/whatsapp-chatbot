@@ -39,11 +39,11 @@
 
    iii. Activate the virtual environment by running following command:
    
-   For ubuntu and mac users:
+   >For ubuntu and mac users:
 
          source chatboatenv/bin/activate
 
-   For windows users:
+   >For windows users:
 
           chatboatenv\Scripts\activate
 
