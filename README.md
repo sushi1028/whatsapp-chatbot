@@ -33,6 +33,7 @@
    >After running above command, a folder named myvenv will get created in your project folder.
 
    iii. Activate the virtual environment by running following command:
+   
    For ubuntu and mac users:
 
          source chatboatenv/bin/activate
