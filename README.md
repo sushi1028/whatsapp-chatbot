@@ -14,26 +14,26 @@
 
 **4.** Learn features of Twilio Sandbox for WhatsApp.
 
-   >*Link your WhatsApp phone number to your Sandbox.
-   >*Shortcut link: https://api.whatsapp.com/send?phone=+14155238886&text=join%20horn-metal
-   >*Send a One-Way WhatsApp Message. (Notice that outbound messages have a predefined format)
-   >*Test Two-Way Messaging
+   >Link your WhatsApp phone number to your Sandbox.
+   >Shortcut link: https://api.whatsapp.com/send?phone=+14155238886&text=join%20horn-metal
+   >Send a One-Way WhatsApp Message. (Notice that outbound messages have a predefined format)
+   >Test Two-Way Messaging
 
 
 **5.** Setup a Python Virtual Environment
 
-   A virtual environment is a tool that helps to keep dependencies required by different projects separate by creating isolated python virtual environments for them.
+   >A virtual environment is a tool that helps to keep dependencies required by different projects separate by creating isolated python virtual environments for them.
 
-   Create a Project Folder.
+   i. Create a Project Folder.
 
-   Run following command to create a new virtual environment inside your project folder:
+   ii. Run following command to create a new virtual environment inside your project folder:
     
      python3 -m venv chatboatenv
     
-   After running above command, a folder named myvenv will get created in your project folder.
+   >After running above command, a folder named myvenv will get created in your project folder.
 
-   Activate the virtual environment by running following command:
-     For ubuntu and mac users:
+   iii. Activate the virtual environment by running following command:
+   For ubuntu and mac users:
 
          source chatboatenv/bin/activate
 
