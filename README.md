@@ -1,4 +1,4 @@
-# Flask - Twilio Based chatbot
+# Flask - Twilio Based WhatsApp Chatbot
 **1.** Create account on [Twilio](https://www.twilio.com/try-twilio)
 
 
